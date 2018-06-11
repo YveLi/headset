@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<!--编码方式-->
+
+<!--bootstrap建议的文件头-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
+<!--异步 引入bootstrap css样式-->
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- 引入jquery-->
+<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+<title>头戴式耳机青春版</title>
+<!--引入公共css文件-->
+<link rel="stylesheet" type="text/css" href="css/public.css">
+<style>
+@media (min-width: 1800px){  
+    .section-item {  
+		background-size:100%;  
+	}
+}  
+.nav{
+	position:fixed;
+	top:0;
+	left:0;
+	background-color:rgba(255,255,255,0.9);
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 40px 0px;
+	width:100%;
+	z-index:999;
+}
+.nav-back{
+	position:absolute;
+	top:0;
+	background-color:rgb(255,255,255);
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 40px 0px;
+	width:100%;
+	z-index:999;
+}
+.title{
+	float:left;
+	font-size: 18px;
+    font-weight: 300;
+    margin: 20px 60% 20px 5%;
+}
+.nav-bar{
+	margin-top:22px;
+}
+.nav-bar li{
+	float:left;
+	margin-right: 7px;
+    border-right: 1px #777 solid;
+    padding-right: 7px;
+}
+.content-text{
+	position:absolute;
+	top:100px;
+	left:8%;
+}
+.content{
+	margin-top:65px;
+	width:100%;
+	height:569px;
+	background-image:url(img/headset.jpg);
+	background-color:#abc39a;
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+.headset-box{
+	position:relative;
+	overflow:hidden;
+    border-left: 20px solid #fff;
+    border-right: 20px solid #fff;
+	margin-top:20px;
+}
+.section-item{
+	width:70%;
+	height:770px;
+	background-position: center center;
+    background-repeat: no-repeat;
+	float:left;
+}
+.section-item-2{
+	width:100%;
+	height:100%;
+	background-position: center center;
+    background-repeat: no-repeat;
+}
+.section-item-color{
+	position:relative;
+	width:30%;
+	height: 770px;
+    background-color: #f1efe8;
+	float:right;
+}
+.item-text{
+	position:absolute;
+	top:40%;
+	left:25%;
+}	
+.item-text-2{
+	position:absolute;
+    top: 17%;
+    left: 10%;
+	
+}	
+.h1{
+	color: #8a8a67;
+	font-size: 26px;
+    line-height: 45px;
+    margin-bottom: 8px;
+	font-border:bolder;
+	margin-left: -20px;
+}
+.h4{
+	color: #8a8a67;
+	font-size: 16px;
+	margin-top: 10px;
+    margin-bottom: 10px;
+	line-height: 30px;
+}
+.icon{
+	width:75px;
+	height:75px;
+	background-image:url(img/headphone2-icon-1440.png);
+}
+ul li{
+	float:left;
+	margin-right:60px;
+}
+.icon-text{
+	text-align:center;
+	color:#fff;
+	margin-top: 18px;
+}
+</style>
+</head>
+<body>
+	<div class="nav" id="nav">
+		<p class="title">头戴式耳机青春版</p>
+		<ul class="nav-bar">
+			<a href="#"><li style="color:red">概述</li></a>
+			<a href="#"><li>参数</li></a>
+			<a href="#"><li>用户评价</li></a>
+			<a href="#"><li style="background:red;color:#fff; width: 80px;text-align: center;">立即购买</li></a>
+		</ul>
+	</div>
+	<div class="nav-back" >
+		<p class="title">头戴式耳机青春版</p>
+		<ul class="nav-bar">
+			<a href="#"><li style="color:red">概述</li></a>
+			<a href="#"><li>参数</li></a>
+			<a href="#"><li>用户评价</li></a>
+			<a href="#"><li style="background:red;color:#fff; width: 80px;text-align: center;">立即购买</li></a>
+		</ul>
+	</div>
+	<div class="content">
+		<div class="content-text">
+			<h1 id="model" style="color:#fff">头戴式耳机青春版</h1>
+			<h4  id="feature" style="color:#fff;line-height: 30px;margin-top: 30px;letter-spacing: 3px;">用好声音，伴你整个青春年华</h4>
+			<h1 style="color: RGB(30,150,212);font-weight: bolder; font-size: 50px;margin-top: 140px;">129<span style="font-size:17px;"> 元</span></h1>
+			<img  src="img/headphone-01-icon.jpg" style="margin-top:80px;"/>
+			<h5 style="position:absolute; top: 380px; left: 100px;width:100%; line-height: 30px;color:rgb(30,150,212);">新推出的MOMENTUM In-Ear降噪耳麦采用了时尚的外观设计，<br>能够提供卓越的声音在线和灵活方便的使用。</h5>
+		</div>
+	</div>
+	<div class="headset-box"  >
+		<div class="section-item" style="background-image:url(img/headphone2-03-1440.jpg)">
+		</div>
+		<div class="section-item-color">
+			<div class="item-text">
+				<h1 class="h1">「 青春 · 懵懂 」</h1>
+				<h4 class="h4">只一眼，<br>便悄然心动，<br>喜欢他的干净，<br>更爱上他的简单纯粹</h4>
+			</div>	
+		</div>
+	</div>
+	<div class="headset-box" >
+		<img class="section-item-2" src="img/headphone2-09-1440.jpg"/>
+		<div class="item-text-2" id="item-text-2">
+			<h1 style="color:#fff;">自由切换随心的回忆</h1>
+			<h4  style="color: rgba(255,255,255,0.8); line-height: 40px;">播放、切歌、接打电话随性切换</h4>
+			<div style="width:37px;height:1px;background-color:rgba(255,255,255,0.8); margin-bottom: 20px;"></div>
+			<h4  style="color: rgba(255,255,255,0.8);   line-height: 30px; font-size: 15px;">自由，便是与你在一起听歌的时光，头戴式耳机轻松版放弃了传统一体式线控结构，<br>为了外观更加简洁，将操作区域放到耳机的左侧，不仅集成音乐播放以及通话等功<br>能，且盲操识别度高，单手操作简单快捷。播放、切歌点触之间即可完成，随性的<br>青春，都由每首好歌曲见证！</h4>
+			<ul style="margin-top:100px;">
+				<li><div class ="icon" style="background-position:0 0;"></div><p class="icon-text">接听<span style="opacity:0.8"><br>（按一下）</span></p></li>
+				<li><div class ="icon" style="background-position:-97px 0;"></div><p class="icon-text">上一首<span style="opacity:0.8"><br>（按三下）</span></p></li>
+				<li><div class ="icon" style="background-position:-196px 0;"></div><p class="icon-text">播放/暂停<span style="opacity:0.8"><br>（按一下）</span></p></li>
+				<li><div class ="icon" style="background-position:-295px 0;"></div><p class="icon-text">下一首<span style="opacity:0.8"><br>（按两下）</span></p></li>
+			</ul>
+		</div>	
+	</div>
+</body>
+<script>
+$(document).ready(function(){
+	document.getElementById("model").style.display = "none";
+	document.getElementById("feature").style.display = "none";
+    $("#model").fadeIn(2000);
+	$("#feature").fadeIn(2000);
+    
+ } );
+ 
+ //导航栏和文字
+ $(document).ready(function(){
+	document.getElementById("nav").style.display="none";
+	document.getElementById("item-text-2").style.display="none";
+	$(window).scroll(function(){
+		var  this_scrollTop = $(this).scrollTop();//动态获取窗口滚动距离
+		//alert(this_scrollTop);
+		if(this_scrollTop > 200){
+			$("#nav").slideDown(500);
+		}else{
+			$("#nav").slideUp(500);
+		}
+		if(this_scrollTop > 1000){
+			$("#item-text-2").fadeIn(1000);
+		}
+	});
+ });	
+ 
+
+
+</script>
+</html>
