@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<!--编码方式-->
+
+<!--bootstrap建议的文件头-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
+<!--异步 引入bootstrap css样式-->
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- 引入jquery-->
+<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+<title>MOMENTUM In-Ear降噪耳麦</title>
+<!--引入公共css文件-->
+<link rel="stylesheet" type="text/css" href="css/public.css">
+<style>
+.nav{
+	position:fixed;
+	top:0;
+	left:0;
+	background-color:#fff;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 40px 0px;
+	width:100%;
+	z-index:999;
+}
+.title{
+	float:left;
+	font-size: 18px;
+    font-weight: 300;
+    margin: 20px 52% 20px 5%;
+}
+.nav-bar{
+	margin-top:22px;
+}
+.nav-bar li{
+	float:left;
+	margin-right: 7px;
+    border-right: 1px #777 solid;
+    padding-right: 7px;
+}
+.content-text{
+	position:absolute;
+	top:100px;
+	left:60px;
+}
+.content{
+	margin-top:65px;
+	width:100%;
+	height:650px;
+	background-image:url(img/headset-1.jpg);
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+.headset-box{
+	width:100%;
+	margin:0 auto;
+}
+</style>
+</head>
+<body>
+	<div class="nav">
+		<p class="title">MOMENTUM In-Ear Fullhdd Black</p>
+		<ul class="nav-bar">
+			<a href="#"><li style="color:red">概述</li></a>
+			<a href="#"><li>参数</li></a>
+			<a href="#"><li>用户评价</li></a>
+			<a href="#"><li style="background:red;color:#fff; width: 80px;text-align: center;">立即购买</li></a>
+		</ul>
+	</div>
+	<div class="content" >
+		<div class="content-text">
+			<h1 id="model">MOMENTUM In-Ear Fullhdd</h1>
+			<h4  id="feature" style="line-height: 30px;margin-top: 30px;letter-spacing: 3px;">石墨烯发声振膜 / 被动低频辐射器设计<br>封闭式音腔设计 / 手机直推高保真音质</h4>
+			<h1 style="color: RGB(30,150,212);font-weight: bolder; font-size: 50px;margin-top: 140px;">255<span style="font-size:17px;"> 元</span></h1>
+			<img  src="img/headphone-01-icon.jpg" style="margin-top:80px;"/>
+			<h5 style="position:absolute;    top: 430px; left: 100px; line-height: 30px;color:rgb(30,150,212);">新推出的MOMENTUM In-Ear降噪耳麦采用了时尚的外观设计，能够提供卓越的声音在线和灵活方便的使用。</h5>
+		</div>
+	</div>
+	<div class="headset-box">
+		<img src="img/headset-more.png" width="100%"/>
+	</div>
+</body>
+<script>
+$(document).ready(function(){
+	document.getElementById("model").style.display = "none";
+	document.getElementById("feature").style.display = "none";
+    $("#model").fadeIn(2000);
+	$("#feature").fadeIn(2000);
+    
+ } );
+</script>
+</html>
